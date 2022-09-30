@@ -1,0 +1,28 @@
+.header {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.list {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.good {
+  color: green;
+}
+
+.neutral {
+  color: orange;
+}
+
+.bad {
+  color: red;
+}

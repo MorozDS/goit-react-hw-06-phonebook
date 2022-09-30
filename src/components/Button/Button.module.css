@@ -1,0 +1,24 @@
+.button {
+  min-width: 100px;
+  padding: 6px 0px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  background-color: brown;
+  border-color: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: rgb(247, 160, 160);
+}

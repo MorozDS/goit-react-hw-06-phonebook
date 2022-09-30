@@ -1,0 +1,11 @@
+.section {
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
